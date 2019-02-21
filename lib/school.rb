@@ -30,7 +30,6 @@ class School
   def sort
     # iterate over roster
     roster.each { |grade, students| students.sort! }
-    # roster[grade].sort
   end
 
 end
