@@ -29,10 +29,8 @@ class School
 
   def sort
     # iterate over roster
-     roster[grade].transform_values { |arr| arr.sort }
+    roster.each { |grade, students| students.sort! }
     # roster[grade].sort
   end
-
-# binding.pry
 
 end
